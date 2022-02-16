@@ -1,0 +1,96 @@
+.available {
+  text-align: center;
+  font-size: 13px;
+  /* margin-top: 50px; */
+}
+
+.cardAvailable {
+  display: flexbox;
+  width: 500px;
+  flex-direction: row;
+  overflow: hidden;
+  transition: 0.3s;
+  animation: ease-in;
+
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.availableImage:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.availableImage img {
+  overflow: hidden;
+  height: 250px;
+  width: 150px;
+}
+
+.availableImage {
+  position: relative;
+  text-align: center;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gameInfo {
+  display: flex;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  gap: 5px;
+}
+
+.gameInfoItem {
+  background-color: goldenrod;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+.availableTitle {
+  margin: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 10px;
+}
+
+.comingsoon {
+  text-align: center;
+  font-size: 13px;
+}
+
+.cardRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.cardContainer {
+  width: auto;
+  overflow: hidden;
+  transition: 0.3s;
+  animation: ease-in;
+}
+
+.cardContainer:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.imageContainer img {
+  opacity: 0.5;
+  overflow: hidden;
+  /* height: 250px; */
+  /* width: 150px; */
+}
+
+.cardTitle {
+  margin: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("partials/head"); %>
+  <body>
+      <%- include("partials/navbar"); %>
+      <div class="row" style="padding-top: 100px">
+        <div class="col-4"></div>
+        <div class="col-2">
+          <button class="tombol" onclick="toLogin()">Login</button>
+        </div>
+        <div class="col-2">
+          <button class="tombol" onclick="toRegister()">Register</button>
+        </div>
+        <div class="col-4"></div>
+        </div>
+  </body>
+  <script>
+    function toLogin(){
+      location.href = "http://localhost:3000/login"
+    }
+    function toRegister(){
+      location.href = "http://localhost:3000/register"
+    }
+  </script>
+</html>

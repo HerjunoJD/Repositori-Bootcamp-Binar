@@ -1,0 +1,22 @@
+.home {
+  background: url("../public/bg-home.png") no-repeat 0 0 fixed;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-color: black;
+}
+
+.containeHome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  margin: 0 auto;
+}

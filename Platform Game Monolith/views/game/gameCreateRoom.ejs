@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("../partials/head"); %>
+  <body>
+    <%- include("../partials/navbar"); %>
+    <br>
+    <br>
+    <form method ="POST" action ="/game/createroom" >
+        <label for="room_name">Silahkan masukkan nama Room yang anda inginkan</label>
+        <br>
+        <input type="text" name="room_name" placeholder ="Masukkan nama room" >
+        <br>
+        <br>
+        <button class="tombol" type="submit">Submit</button>
+    </form>
+  </body>

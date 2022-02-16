@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("../partials/head"); %>
+  <body>
+    <%- include("../partials/navbar"); %>
+    <br>
+    <br>
+    <form method ="POST" action ="/game/roomvalidation/<%= id %>" >
+        <label for="unique_code">Silahkan masukkan kode unik yang telah diberikan</label>
+        <br>
+        <input type="text" name="unique_code" placeholder ="Input kodeunik room" >
+        <br>
+        <br>
+        <button class="tombol" type="submit">Masuk ke room</button>
+    </form>
+  </body>

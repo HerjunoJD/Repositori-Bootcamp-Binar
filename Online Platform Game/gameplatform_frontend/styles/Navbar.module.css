@@ -1,0 +1,44 @@
+.bg-nav {
+    background-color: rgba(0, 0, 0);
+    margin-bottom: 0 !important;
+}
+
+.title {
+    display: inline-block;
+    margin-left: 5rem;
+}
+
+.item {
+    display: inline-block;
+    margin-left: 5rem;
+}
+
+.logout-color {
+    color: #FFB548 !important;
+    text-decoration: none;
+}
+
+.logout-color:hover {
+    color: white;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #FFB548;
+}
+
+.nav-info {
+    margin-left: auto;
+    margin-right: 5rem;
+    /* display: flex; */
+    position: relative;
+    background-color: white;
+}
+
+/* .logout-color:hover {
+    color: white;
+} */

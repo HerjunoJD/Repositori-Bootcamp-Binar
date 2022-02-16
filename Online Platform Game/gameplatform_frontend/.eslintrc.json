@@ -1,0 +1,52 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "next/core-web-vitals",
+		"next"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "linebreak-style": "off",
+        "react/function-component-definition": "off",
+        "react-hooks/rules-of-hooks": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "react/prop-types": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-no-useless-fragment": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/no-unescaped-entities": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/no-array-index-key": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "import/no-anonymous-default-export": "off",
+        "no-unused-vars": ["warn", { "vars": "local", "args": "none", "ignoreRestSiblings": false }],
+        "consistent-return": "off",
+        "semi": "error",
+        "rest-spread-spacing": "off",
+        "default-param-last": "off",
+        "no-alert": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "no-shadow": "off",
+        "no-unused-expressions": "off",
+        "no-plusplus": "off",
+        "no-undef":"off",
+        "no-use-before-define": "off",
+        "no-trailing-spaces": "off"
+    }
+}
